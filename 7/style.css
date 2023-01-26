@@ -1,0 +1,230 @@
+/*GENERAL*/
+body{
+    font-family: 'Bai Jamjuree', sans-serif;
+    width: 90rem;
+}
+
+p{
+    font-size: 1.125rem;
+    color: hsl(201, 11%, 66%);
+}
+
+h2{
+    font-size: 2rem;
+    font-weight: 600;
+    color: hsl(210, 10%, 33%);
+}
+
+h3{
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: hsl(210, 10%, 33%);
+}
+
+button{
+    margin-left: 1rem;
+}
+
+.available, #access, #sponsors{
+    text-align: center;
+}
+
+.logo{
+    width: 4rem;
+    height: 4rem;
+}
+
+.ios{
+    background-color: hsl(171, 66%, 44%);
+    color: white;
+    width: 15rem;
+    height: 3rem;
+    border-radius: 2rem;
+    border: 0px;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.mac{
+    background-color: hsl(233, 100%, 69%);
+    color: white;
+    width: 15rem;
+    height: 3rem;
+    border-radius: 2rem;
+    border: 0px;
+    border-color: hsl(233, 100%, 69%);
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.ios:hover, .mac:hover{
+    filter: brightness(1.15);
+    box-shadow: 0rem 0.1rem 0.1rem black;
+    cursor: pointer;
+}
+
+.tittle{
+    text-align: center;
+}
+
+.subtittle{
+    margin: 0 auto;
+    width: 45rem;
+    text-align: center;
+}
+
+
+/********/
+/*HEADER*/
+/********/
+header{
+    background-image: url(./images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    margin-top: -0.45rem;
+    padding-top: 5rem;
+}
+.available p{
+    margin: 0 auto;
+    width: 40rem;
+    margin-bottom: 3rem;
+    margin-top: 1.5rem;
+}
+
+
+
+/********************************************/
+/*SECTION*/
+/*******/
+/*TRACK*/
+/*******/
+#track{
+    margin-bottom: 20rem;
+    margin-top: 8rem;
+}
+
+
+#computer{
+    width: 40rem;
+    height: 30rem;
+    float: left;
+    margin-top: 5rem;
+}
+
+#track-info{
+    margin-top: 8rem;
+    margin-left: 45rem;
+    width: 25rem;
+}
+
+
+/********/
+/*ACCESS*/
+/********/
+#access p{
+    margin-bottom: 7rem;
+}
+
+#devices{
+    width: 50rem;
+    height: 35rem;
+}
+
+/**********/
+/*WORKFLOW*/
+/**********/
+#work{
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.helps{
+    width: 2rem;
+    height: 2rem;
+}
+
+#lists{
+    margin-left: 5rem;
+}
+
+#snippets{
+    margin-left: 32.5rem;
+    margin-top: -12.6rem;
+    margin-bottom: 5rem;
+}
+
+#preview{
+    margin-left: 60rem;
+    margin-top: -16.1rem;
+}
+
+#lists, #snippets, #preview{
+    width: 25rem;
+    text-align: center;
+}
+
+/**********/
+/*SPONSORS*/
+/**********/
+.sponsor_img{
+    margin-top: 10rem;
+    margin-right: 7rem;
+    margin-bottom: 9rem;
+}
+#google{
+    margin-left: 5rem;
+}
+
+section .available{
+    margin-bottom: 8rem;
+}
+/*******************************************/
+
+/********/
+/*FOOTER*/
+/********/
+footer{
+    background-color: hsl(200, 23%, 97%);
+    width: 90.45rem;
+    height: 10rem;
+    margin-left: -0.45rem;
+    margin-bottom: -15rem;
+}
+
+#footer_logo{
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-left: 10rem;
+    margin-top: 3rem;
+}
+
+#links{
+    width: 75%;
+    margin: 0 auto;
+    margin-top: -5rem;
+    margin-left: 20rem;
+    display: grid;
+    grid-template-columns: 10rem 10rem 10rem;
+}
+
+a{
+    padding-top: 1.5rem;
+    color: gray;
+    text-decoration: none;
+}
+
+a:hover{
+    color: hsl(171, 66%, 44%);
+}
+
+/********/
+/*MEDIA*/
+/********/
+#media{
+    display: grid;
+    grid-template-columns: 3rem 3rem 3rem;
+    justify-content: flex-end;
+    margin-right: 5rem;
+    margin-top: -2rem;
+}
+
